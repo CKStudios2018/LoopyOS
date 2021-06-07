@@ -21,7 +21,7 @@ body{
 }
 
 .form input{
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", semibold;
     outline: 1;
     background: #f2f2f2;
     width: 100%;
@@ -33,7 +33,7 @@ body{
 }
 
 .form button{
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", semibold;
     text-transform: uppercase;
     outline: 0;
     background: #4ACF50;
