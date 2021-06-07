@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>LoopyWebOS - Calculator</title>
+  </head>
+  <body>
+
+    <h2>Calculator</h2>
+
+    <input type="text" id="x"/>
+    <input type="text" id="y"/>
+    <button onclick="sum()">Sum</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Divide</button>
+    <p id="demo"></p>
+    
+    <script>
+      function sum() {
+      var x = Number(document.getElementById("x").value);
+      var y = Number(document.getElementById("y").value);
+      var result;
+      result = x + y;
+      document.getElementById("demo").innerHTML = result;
+      }
+      function sub() {
+      var x = Number(document.getElementById("x").value);
+      var y = Number(document.getElementById("y").value);
+      var result;
+      result = x - y;
+      document.getElementById("demo").innerHTML = result;
+      }
+      function mul() {
+      var x = Number(document.getElementById("x").value);
+      var y = Number(document.getElementById("y").value);
+      var result;
+      result = x * y;
+      document.getElementById("demo").innerHTML = result;
+      }
+      function div() {
+      var x = Number(document.getElementById("x").value);
+      var y = Number(document.getElementById("y").value);
+      var result;
+      result = x / y;
+      document.getElementById("demo").innerHTML = result;
+      }
+      </script>
+    </body>
+</html>

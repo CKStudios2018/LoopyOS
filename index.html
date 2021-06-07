@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login - LoopyWebOS 1993</title>
+        <link rel="stylesheet" href="loginstyle.css">
+        <meta name="description" content="Enjoy an OS that's completely in your browser. Welcome, to LoopyWebOS">
+    </head>
+    <body>
+        <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input type="text" placeholder="name"/>
+                <input type="text" placeholder="password"/>
+                <input type="email" placeholder="email"/>
+                <button onclick="location.href='https://ckstudios2018.github.io/LoopyOS/os';">Create Account</button>
+                <p class="message">Allready Registered? <a href="#">Login</a></p>
+            </form>
+
+            <form class="login-form">
+                <input type="text" placeholder="Username"/>
+                <input type="password" placeholder="Password"/>
+                <button>Login</button>
+                <p class="message">New Member? <a href="#">Register</a></p>
+            </form>
+        </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+        </script>
+
+        <script>
+            $('.message a').click(function(){
+                $('form').animate({height: "toggle", opacity:   "toggle"}, "slow");
+            });
+        </script>
+    </body>
+</html>
