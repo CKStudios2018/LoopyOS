@@ -2,10 +2,17 @@ body{
     background-image: url("https://raw.githubusercontent.com/CKStudios2018/LoopyOS/main/backgrounds/Desktop.png");
 }
 
-button{
+#calculator{
     position: absolute;
     cursor: pointer;
     border-radius: 0px;
     top : 42px;
+    left : 35px;
+}
+#logout{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 0px;
+    top : 84px;
     left : 35px;
 }
