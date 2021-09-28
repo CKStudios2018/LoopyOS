@@ -7,12 +7,12 @@ body{
     cursor: pointer;
     border-radius: 0px;
     top : 42px;
-    left : 35px;
+    left : 38px;
 }
 #logout{
     position: absolute;
     cursor: pointer;
     border-radius: 0px;
-    top : 84px;
-    left : 35px;
+    top : 82px;
+    left : 45px;
 }
