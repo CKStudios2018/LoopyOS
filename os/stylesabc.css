@@ -3,6 +3,9 @@ body{
 }
 
 button{
+    position: absolute;
     cursor: pointer;
     border-radius: 0px;
+    top : 40px;
+    right : 100px;
 }
