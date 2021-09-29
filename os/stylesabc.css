@@ -10,10 +10,18 @@ body{
     left : 45px;
 }
 
-#logout{
+#store{
     position: absolute;
     cursor: pointer;
     border-radius: 0px;
     top : 82px;
+    left : 47px;
+}
+
+#logout{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 0px;
+    top : 122px;
     left : 47px;
 }
